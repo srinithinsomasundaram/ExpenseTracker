@@ -1,0 +1,34 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .left-section,
+  .right-section {
+    padding: 0 10px;
+  }
+  
+  .left-section a,
+  .right-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .left-section a:hover,
+  .right-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  

@@ -1,0 +1,58 @@
+/* login.css */
+
+/* Style for the login form container */
+.login-container {
+  width: 300px;
+  margin: 100px auto; /* Center horizontally and add vertical margin */
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff8e;
+  }
+  .login-head
+  {
+    color: #0c0b0b;
+  }
+  /* Style for form elements */
+  .login-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #090808; /* Label text color */
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-container button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #00000063;
+  }
+  
+  /* Style for login link */
+  .login-container p {
+    margin-top: 10px;
+    color: #373232; /* Text color */
+  }
+  
+  .login-container p a {
+    color: #383434;
+    text-decoration: none;
+  }
+  
+  .login-container p a:hover {
+    text-decoration: underline;
+  }
+  
